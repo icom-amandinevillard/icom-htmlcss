@@ -2,64 +2,103 @@
 
 <html>
 	<head>
-		<title> Mon super site </title>
+		<title> Les patates au pouvoir ! </title>
 		<meta charset="utf-8"/>
 		<link rel="stylesheet" type="text/css" href="index.css" />
 		<link rel="stylesheet" type="text/css" href="stylesheets/home.css" />
+		<link rel="stylesheet" type="text/css" href="mediaquerie.css" />
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css' />
 	</head>
 
 	<body>
 		<div id="wrapper">
-			<div id="header" class="clearfix"> 
-				<div id="logo">
-					<a href="https://youtube.com/"><img src="images/YouTube_logo.png" alt="youtube" /> </a>
+			<div id="header" class="resp-section">
+				<div class="resp-grid">
+				<div id="logo" class="mob-2 tab-2 pc-2">
+					<a href="https://youtube.com/"><img src="images/dessins-animes-caractere-avec-de-grands-yeux_318-44573.jpg" class="imageslider" alt="youtube" /> </a>
 				</div>
 
-				<div id="nav">
+				<div id="nav" class="mob-12 tab-9 pc-9">
 					<ul>
-						<li><a href="#" title="title1"><h2>Text</span></h2></a></li>
-						<li><a href="#" title="title2"><h2>Text</span></h2></a></li>
-						<li><a href="#" title="title3"><h2>Text</span></h2></a></li>
-						<li><a href="#" title="title4"><h2>Text</span></h2></a></li>
+						<li>
+							<a href="#" title="title1">
+								HOME
+								<span>Back to home</span>
+							</a>
+							
+						</li>
+						<li>
+							<a href="#" title="title1">
+								ABOUT US
+								<span>Learn more about us</span>
+							</a>
+							
+						</li>
+						<li>
+							<a href="#" title="title1">
+								REFERENCES
+								<span>Check our work</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" title="title1">
+								OUR TEAM
+								<span>How to build your website</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" title="title1">
+								NEWS
+								<span>Our latest news</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" title="title1">
+								CONTACT US
+								<span>School contacts</span>
+							</a>
+						</li>
 					</ul>	
 				</div>
 			</div>
+			</div>
 
-			<div id="content">
+			<div id="content" class="clearfix">
 				<div id="slider">
 					<img src="images/11949811256_99cd5cbd55_b.jpg" alt="patates"/>
 				</div>
 
 				<div id="container">
 
-					<div class="colonne" id="col1">
-						<h2> TITRE </h2>
+					<div class="colonne colonne-tablet-6 colonne-mob-12" id="col1">
+						<h3> TITRE </h3>
 						<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 
-						<h2> TITRE </h2>
+						<h3> TITRE </h3>
 						<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 
-						<h2> TITRE </h2>
-						<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-					</div>
-
-					<div class="colonne" id="col2">
-						<h2> TITRE </h2>
-						<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-
-						<h2> TITRE </h2>
-						<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-
-						<h2> TITRE </h2>
+						<h3> TITRE </h3>
 						<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 					</div>
 
-					<div class="colonne" id="col3">
-						<h2> BOUTON 1 </h2> <br />
+					<div class="colonne colonne-tablet-6 colonne-mob-12" id="col2">
+						<h3> TITRE </h3>
+						<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 
-						<h2> BOUTON 2 </h2> <br />
+						<h3> TITRE </h3>
+						<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 
-						<h2> BOUTON 3 </h2> <br />
+						<h3> TITRE </h3>
+						<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+					</div>
+
+					<div class="colonne colonne-tablet-6 colonne-mob-12" id="col3">
+						<h2 id="bouton1"> 
+							<img id="imagepatate" src="images/retail-genuine-2G-4G-8G-16G-32G-Mr-Potato-Head-usb-flash-drive-memory-cartoon-toy.jpg_50x50.jpg"> 
+							<span>First Button </span>
+						</h2>  <br /> 
+						<h2 id="bouton2"> <img id="imagepatate" src="images/retail-genuine-2G-4G-8G-16G-32G-Mr-Potato-Head-usb-flash-drive-memory-cartoon-toy.jpg_50x50.jpg"> <span>Video </span> </h2> <br />
+						<h2 id="bouton3"> <img id="imagepatate" src="images/retail-genuine-2G-4G-8G-16G-32G-Mr-Potato-Head-usb-flash-drive-memory-cartoon-toy.jpg_50x50.jpg"> <span>Life Safety </span></h2> <br />
 
 					</div>
 
@@ -68,8 +107,8 @@
 			<br />
 
 			<div id="footer">
-				<div id="footer-top">
-					<div class="colonne" id="colfooter1">
+				<div id="footer-top" class="clearfix">
+					<div id="colfooter1">
 						<h3> USEFUL LINKS </h3>
 						<li> <a href="#" title="title1"> <span> About us </span> </a> </li>
 						<li> <a href="#" title="title1"> <span> Reference </span> </a> </li>
@@ -78,26 +117,26 @@
 						<li> <a href="#" title="title1"> <span> Contact </span> </a> </li>
 					</div>
 
-					<div class="colonne" id="colfooter2">
+					<div id="colfooter2">
 						<h3> CONTACT </h3>
-						<h4> ICOM </h4>
-						<p> ICOM adress </p> <br />
-						<p> Lyon, France </p> <br />
+						<p> <b>  ICOM </p> </b> 
+						<p> ICOM adress </p> 
+						<p> Lyon, France </p> 
 						<p> TEL: +33 (0)4 04 04 04 04 </p> <br />
 					</div>	
 
-					<div class="colonne" id="colfooter3">
+					<div id="colfooter3">
 						<h3> PICTURE STREAM </h3>
-						<a href="#"><img src="img1" alt="img1" /> </a>
-						<a href="#"><img src="img2" alt="img2" /> </a>
-						<a href="#"><img src="img3" alt="img3" /> </a> <br />
-						<a href="#"><img src="img4" alt="img4" /> </a> 
-						<a href="#"><img src="img5" alt="img5" /> </a>
-						<a href="#"><img src="img6" alt="img6" /> </a>
+						<a href="#"><img src="images/038151c571f071fff3080edf07058de2_normal.png" alt="img1" /> </a>			
+						<a href="#"><img src="images/038151c571f071fff3080edf07058de2_normal.png" alt="img2" /> </a>
+						<a href="#"><img src="images/038151c571f071fff3080edf07058de2_normal.png" alt="img3" /> </a> <br />
+						<a href="#"><img src="images/038151c571f071fff3080edf07058de2_normal.png" alt="img4" /> </a> 
+						<a href="#"><img src="images/038151c571f071fff3080edf07058de2_normal.png" alt="img5" /> </a>
+						<a href="#"><img src="images/038151c571f071fff3080edf07058de2_normal.png" alt="img6" /> </a>
 					</div>	
 				</div>	
 
-				<div id="footer-bottom">
+				<div id="footer-bottom" class="clearfix">
 					<p> 2015 all right reserved </p>
 				</div>
 			</div>			

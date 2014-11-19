@@ -2,11 +2,28 @@ img#logo {
 	left: 20px;
 }
 
+#header #nav{
+	float:left;
+	margin:40px 0px 0px 30px;
+}
 #nav li{
-	display: inline-block;
+	float: left;
+	display: block;
+	list-style-type: none;
+	margin:0px 10px;
 	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
 }
 
+
+#nav li a{
+	color:#686868 ;
+}
+#nav li a span{
+	display:block;
+	color:#000;
+}
 /*
 ___ position Relative
 margin
@@ -36,38 +53,98 @@ text-align
 #wrapper{
 	width:1200px;
 	margin:0px auto;
+	background-color: #F0F0F0 ;
 }
 
 
 #header #logo{
 	float:left;
 }
-#header #nav{
-	float:right;
-}
+
 #container {
 	position:relative;
+	font-family: 'Ubuntu', sans-serif;
 }
 
-#col1 {
-   width:30%; 
-   display:inline-block;
+#slider img{
+	text-align: center;
+	width: 100%;
+	height:auto;
 }
 
-#col2 {
+.colonne{
    width:30%; 
+   float:left;
    display:inline-block;
+	list-style-type: none;
+	margin:0px 10px;
+	text-align: justify;
 }
 
-#col3 {
-   width:30%; 
-   display:inline-block;
+
+
+#bouton1 {
+	background-color: #6699FF;	
+	height:100px;
 }
+#bouton1 span{
+	font-size:20px;
+	padding:40px 0px;
+	line-height: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	display:block;
+	float:left;
+}
+
+#bouton2 {
+	background-color: #6699FF;
+	height: 100px;
+}
+#bouton2 span{
+	font-size:20px;
+	padding:40px 0px;
+	line-height: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	display:block;
+	float:left;
+}
+
+#bouton3 {
+	background-color: #6699FF;
+	height: 100px;
+}
+#bouton3 span{
+	font-size:20px;
+	padding:40px 0px;
+	line-height: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	display:block;
+	float:left;
+}
+
+#imagepatate {
+	height: 100px;
+	float:left;
+}
+
 .colonne {
    width:30%; 
    display:inline-block;
    vertical-align: top;
+   list-style-type: none;
 }
+
+#colfooter1, #colfooter2, #colfooter3   {
+   width:30%;
+   vertical-align: top;
+   display:inline-block;
+	list-style-type: none;
+	margin:0px 10px;
+	text-align: left;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: large;
+}
+
 
 .clearfix:before,
 .clearfix:after{
@@ -77,4 +154,9 @@ text-align
 
 .clearfix:after{
 	clear:both;
+}
+
+.imageslider {
+	width: 100%;
+	height: auto;
 }

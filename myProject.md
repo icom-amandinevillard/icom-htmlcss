@@ -14,7 +14,7 @@ Les différentes DIV permettent de rendre la lecture du code plus claire.
 
 ## Comment suis-je arrivé à ce résultat ?
 ### _(Différentes étapes, problématiques d'organisation)_
-J'ai commencé par faire le squelette de mon site avec du HTML. J'ai ensuite mis les images, rendus certains liens cliquables.
+J'ai commencé par faire le squelette de mon site avec du HTML. J'ai ensuite mis les images, rendus certains liens cliquables. Une fois mon code HTML fini, j'ai commencé la mise en page grâce à un fichier CSS. Il fallait que mon code soit claire et bien ordonné avec des noms de div et de class correct pour mieux comprendre mon code CSS. 
 
 ---
 ## Quelles sont les difficultés rencontrées durant ces 6 sessions ?
